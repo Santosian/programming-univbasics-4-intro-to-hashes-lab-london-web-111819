@@ -3,20 +3,20 @@ def new_hash
 end
 
 def my_hash
-  my_hash = {:origen => "Venezuela"}
+ return {:origen => "Venezuela"}
 end
 
 def pioneer
-  pioneer = {:name => "Grace Hopper"}
+  return {:name => "Grace Hopper"}
 end
 
 def id_generator
-  id_generator = {:id => 8 }
+  return {:id => 8 }
   # return a hash with a key :id assigned to positive integer
 end
 
 def my_hash_creator(key, value)
-  hash_creator = {key => value}
+  return {key => value}
 end
 
 def read_from_hash(hash, key)
